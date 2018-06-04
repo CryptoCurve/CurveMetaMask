@@ -160,15 +160,6 @@ DepositEtherModal.prototype.render = function () {
         }),
 
         this.renderRow({
-          logo: h('i.fa.fa-tint.fa-2x'),
-          title: FAUCET_ROW_TITLE,
-          text: this.facuetRowText(networkName),
-          buttonLabel: this.context.t('getEther'),
-          onButtonClick: () => toFaucet(network),
-          hide: !isTestNetwork || buyingWithShapeshift,
-        }),
-
-        this.renderRow({
           logo: h('div.deposit-ether-modal__logo', {
             style: {
               backgroundImage: 'url(\'./images/coinbase logo.png\')',

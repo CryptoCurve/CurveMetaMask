@@ -1,5 +1,6 @@
 const ROPSTEN = 'ropsten'
 const RINKEBY = 'rinkeby'
+const WANCHAIN = 'wanchain'
 const KOVAN = 'kovan'
 const MAINNET = 'mainnet'
 const LOCALHOST = 'localhost'
@@ -10,6 +11,7 @@ const KOVAN_CODE = 42
 
 const ROPSTEN_DISPLAY_NAME = 'Ropsten'
 const RINKEBY_DISPLAY_NAME = 'Rinkeby'
+const WANCHAIN_DISPLAY_NAME = 'Wanchain'
 const KOVAN_DISPLAY_NAME = 'Kovan'
 const MAINNET_DISPLAY_NAME = 'Main Ethereum Network'
 
@@ -17,6 +19,7 @@ const MAINNET_DISPLAY_NAME = 'Main Ethereum Network'
 module.exports = {
   ROPSTEN,
   RINKEBY,
+  WANCHAIN,
   KOVAN,
   MAINNET,
   LOCALHOST,
@@ -25,6 +28,7 @@ module.exports = {
   KOVAN_CODE,
   ROPSTEN_DISPLAY_NAME,
   RINKEBY_DISPLAY_NAME,
+  WANCHAIN_DISPLAY_NAME,
   KOVAN_DISPLAY_NAME,
   MAINNET_DISPLAY_NAME,
 }

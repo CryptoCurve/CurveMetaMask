@@ -33,7 +33,7 @@
     "message": "Amount + Gas"
   },
   "appDescription": {
-    "message": "Ethereum Browser Extension",
+    "message": "Wanchain Browser Extension",
     "description": "The description of the application"
   },
   "appName": {
@@ -212,7 +212,7 @@
     "message": "Deposit Eth"
   },
   "depositEther": {
-    "message": "Deposit Ether"
+    "message": "Deposit WAN"
   },
   "depositFiat": {
     "message": "Deposit with Fiat"
@@ -233,10 +233,10 @@
     "message": "Direct Deposit"
   },
   "directDepositEther": {
-    "message": "Directly Deposit Ether"
+    "message": "Directly Deposit WAN"
   },
   "directDepositEtherExplainer": {
-    "message": "If you already have some Ether, the quickest way to get Ether in your new wallet by direct deposit."
+    "message": "If you already have some WAN, the quickest way to get WAN in your new wallet by direct deposit."
   },
   "done": {
     "message": "Done"
@@ -275,7 +275,7 @@
     "message": "Passwords Don't Match"
   },
   "etherscanView": {
-    "message": "View account on Etherscan"
+    "message": "View account on CryptoCurve"
   },
   "exchangeRate": {
     "message": "Exchange Rate"
@@ -504,7 +504,7 @@
     "message": "Must select at least 1 token."
   },
   "needEtherInWallet": {
-    "message": "To interact with decentralized applications using MetaMask, you’ll need Ether in your wallet."
+    "message": "To interact with decentralized applications using CurveMask, you’ll need WAN in your wallet."
   },
   "needImportFile": {
     "message": "You must select a file to import.",

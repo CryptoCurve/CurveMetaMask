@@ -17,7 +17,7 @@ const styles = {
   materialFocused: {},
   materialUnderline: {
     '&:after': {
-      borderBottom: '2px solid #f7861c',
+      borderBottom: '2px solid #2ad4dc',
     },
   },
   materialError: {},
@@ -36,14 +36,14 @@ const styles = {
     'label + &': {
       marginTop: '8px',
     },
-    border: '1px solid #d2d8dd',
+    borderBottom: '1px solid #d2d8dd',
     height: '48px',
-    borderRadius: '4px',
+    borderRadius: '0px',
     padding: '0 16px',
     display: 'flex',
     alignItems: 'center',
     '&$inputFocused': {
-      border: '1px solid #2f9ae0',
+      borderBottom: '1px solid #2f9ae0',
     },
   },
   inputLabel: {

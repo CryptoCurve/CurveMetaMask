@@ -120,7 +120,7 @@ BuyButtonSubview.prototype.headerSubview = function () {
             paddingLeft: '15px',
             width: '100vw',
             background: 'rgb(235, 235, 235)',
-            color: 'rgb(174, 174, 174)',
+            color: 'red',//'rgb(174, 174, 174)',
             paddingTop: '4px',
             paddingBottom: '4px',
           },

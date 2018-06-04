@@ -151,7 +151,7 @@ class BuyEtherScreen extends Component {
     return (
       <div className='buy-ether'>
         <Identicon address={this.props.address} diameter={70} />
-        <div className='buy-ether__title'>Deposit Ether</div>
+        <div className='buy-ether__title'>Deposit WAN</div>
         <div className='buy-ether__body-text'>
           MetaMask works best if you have Ether in your account to pay for transaction gas fees and more. To get Ether, choose from one of these methods.
         </div>

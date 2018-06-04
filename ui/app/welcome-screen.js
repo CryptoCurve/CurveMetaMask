@@ -39,17 +39,11 @@ class WelcomeScreen extends Component {
 
         h('div.welcome-screen__info', [
 
-          h(Mascot, {
-            animationEventEmitter: this.animationEventEmitter,
-            width: '225',
-            height: '225',
-          }),
+          h('div.welcome-screen__info__header', 'Welcome to CurveMask'),
 
-          h('div.welcome-screen__info__header', 'Welcome to MetaMask Beta'),
+          h('div.welcome-screen__info__copy', 'CurveMask is a secure identity vault for Wanchain.'),
 
-          h('div.welcome-screen__info__copy', 'MetaMask is a secure identity vault for Ethereum.'),
-
-          h('div.welcome-screen__info__copy', `It allows you to hold ether & tokens,
+          h('div.welcome-screen__info__copy', `It allows you to hold WAN & tokens,
             and serves as your bridge to decentralized applications.`),
 
           h('button.welcome-screen__button', {

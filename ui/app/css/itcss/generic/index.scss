@@ -20,6 +20,14 @@ body {
   padding: 0;
 }
 
+.welcome-screen__button {
+  background-color: #000000 !important;
+}
+.welcome-screen__button:hover {
+  transition: 2s ease;
+  background-color: #2ad4dc !important;
+}
+
 html {
   min-height: 500px;
 }
@@ -57,7 +65,8 @@ a {
 }
 
 a:hover {
-  color: #df6b0e;
+  transition: 2s ease;
+  color: #2ad4dc;
 }
 
 input.large-input,

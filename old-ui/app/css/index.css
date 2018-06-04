@@ -131,7 +131,7 @@ app
 
 button.primary {
   padding: 8px 12px;
-  background: #F7861C;
+  background: #2ad4dc;
   box-shadow: 0px 3px 6px rgba(247, 134, 28, 0.36);
   color: white;
   font-size: 1.1em;
@@ -144,7 +144,6 @@ button.btn-thin {
   border-color: #4D4D4D;
   color: #4D4D4D;
   background: rgb(255, 174, 41);
-  border-radius: 4px;
   min-width: 200px;
   margin: 12px 0;
   padding: 6px;
@@ -206,7 +205,7 @@ textarea.twelve-word-phrase {
 
 .check {
   margin-left: 12px;
-  color: #F7861C;
+  color: #2ad4dc;
   flex: 1 0 auto;
   display: flex;
   justify-content: flex-end;
@@ -220,7 +219,7 @@ app sections
 .initialize-screen hr {
   width: 60px;
   margin: 12px;
-  border-color: #F7861C;
+  border-color: #2ad4dc;
   border-style: solid;
 }
 
@@ -239,7 +238,7 @@ app sections
 
 /* unlock */
 .error {
-  color: #f7861c;
+  color: #2ad4dc;
   margin-bottom: 9px;
 }
 
@@ -276,7 +275,6 @@ app sections
   transition: transform 250ms ease-in;
 }
 .lock.unlocked:hover {
-  border-radius: 4px;
   background: #e5e5e5;
   border: 1px solid #b1b1b1;
 }
@@ -482,7 +480,7 @@ input.large-input {
   margin-bottom: 2px;
   font-size: 11px;
   text-rendering: geometricPrecision;
-  color: #F7861C;
+  color: #2ad4dc;
 }
 .name-label:hover .edit-text {
   visibility: visible;
@@ -494,7 +492,7 @@ input.large-input {
   padding: 2px;
   margin: 12px;
   margin-bottom: 24px;
-  border-radius: 4px;
+  border-radius: 0px;
   border: 2px solid #F3C83E;
   background: #FAF6F0;
 }
@@ -517,7 +515,7 @@ input.large-input {
 /* Ether Balance Widget */
 
 .ether-balance-amount {
-  color: #F7861C;
+  color: #2ad4dc;
 }
 
 .ether-balance-label {
@@ -612,14 +610,14 @@ input.large-input {
 .input-container:hover .buy-inputs{
   box-sizing: inherit;
   border: solid;
-  border-color: #F7861C;
+  border-color: #2ad4dc;
   border-width: 0.5px;
   border-radius: 2px;
 }
 
 .buy-inputs:focus{
   border: solid;
-  border-color: #F7861C;
+  border-color: #2ad4dc;
   border-width: 0.5px;
   border-radius: 2px;
 }
@@ -707,7 +705,7 @@ input.large-input {
 
 .qr-message {
   font-size: 12px;
-  color: #F7861C;
+  color: #2ad4dc;
 }
 
 div.message-container > div:first-child {

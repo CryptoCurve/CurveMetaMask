@@ -74,13 +74,13 @@ class UnlockPage extends Component {
 
   renderSubmitButton () {
     const style = {
-      backgroundColor: '#f7861c',
+      backgroundColor: '#000000',
       color: 'white',
       marginTop: '20px',
       height: '60px',
       fontWeight: '400',
       boxShadow: 'none',
-      borderRadius: '4px',
+      borderRadius: '0px',
     }
 
     return (
@@ -105,13 +105,6 @@ class UnlockPage extends Component {
     return (
       <div className="unlock-page__container">
         <div className="unlock-page">
-          <div className="unlock-page__mascot-container">
-            <Mascot
-              animationEventEmitter={this.animationEventEmitter}
-              width="120"
-              height="120"
-            />
-          </div>
           <h1 className="unlock-page__title">
             { this.context.t('welcomeBack') }
           </h1>

@@ -9,7 +9,6 @@
 .first-time-flow {
   width: 100vw;
   background-color: #fff;
-  overflow: auto;
   display: flex;
   justify-content: center;
   flex: 1 0 auto;
@@ -17,10 +16,14 @@
   font-family: Roboto;
 }
 
+.first-time-flow__input {
+  border-radius: 0px;
+}
+
 .alpha-warning__container {
   display: flex;
   justify-content: center;
-  background: #f7861c;
+  background: #2ad4dc;
   flex: 0 0 auto;
 }
 
@@ -291,10 +294,9 @@
 
 .tou__body {
   border: 1px solid #979797;
-  border-radius: 8px;
   background-color: #FFFFFF;
   margin: 0 142px 0 0;
-  height: 334px;
+  height: 344px;
   overflow-y: auto;
   color: #757575;
   font-family: Roboto;
@@ -360,7 +362,6 @@
   justify-content: center;
   width: 349px;
   border: 1px solid #CDCDCD;
-  border-radius: 6px;
   background-color: #FFFFFF;
   padding: 20px 0;
   margin-top: 36px;
@@ -394,7 +395,6 @@
 
 .backup-phrase__reveal-button {
   border: 1px solid #979797;
-  border-radius: 4px;
   background: none;
   box-shadow: none;
   color: #FFFFFF;
@@ -430,7 +430,6 @@ button.backup-phrase__reveal-button:hover {
   height: 190px;
   width: 495px;
   border: 1px solid #CDCDCD;
-  border-radius: 6px;
   background-color: #FFFFFF;
   margin: 25px 0 36px;
   padding: 17px;
@@ -489,7 +488,6 @@ button.backup-phrase__confirm-seed-option:hover {
 .import-account__dropdown {
   width: 325px;
   border: 1px solid #CDCDCD;
-  border-radius: 4px;
   background-color: #FFFFFF;
   margin-top: 14px;
   color: #5B5D67;
@@ -554,7 +552,6 @@ button.backup-phrase__confirm-seed-option:hover {
   height: 53px;
   width: 148px;
   border: 1px solid #1B344D;
-  border-radius: 4px;
   color: #1B344D;
   font-family: Roboto;
   font-size: 18px;
@@ -695,7 +692,7 @@ button.backup-phrase__confirm-seed-option:hover {
   text-transform: uppercase;
   margin: 35px 0 14px;
   transition: 200ms ease-in-out;
-  background-color: rgba(247, 134, 28, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 button.first-time-flow__button[disabled] {
@@ -703,8 +700,10 @@ button.first-time-flow__button[disabled] {
 }
 
 button.first-time-flow__button:hover {
+  transition: 2s ease;
   transform: scale(1);
-  background-color: rgba(247, 134, 28, 0.9);
+  color: black;
+  background-color: #2ad4dc;
 }
 
 .first-time-flow__button--tertiary {
@@ -738,7 +737,7 @@ button.first-time-flow__button--tertiary:hover {
 .breadcrumb {
   height: 10px;
   width: 10px;
-  border: 1px solid #979797;
+  border: 1px solid #000000;
   border-radius: 50%;
 }
 
